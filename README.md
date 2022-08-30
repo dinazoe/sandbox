@@ -1,3 +1,7 @@
+## web-server
+- pip3 install -r requirements.txt
+main.py needs to be ran via uvicorn: uvicorn main:app --reload
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
