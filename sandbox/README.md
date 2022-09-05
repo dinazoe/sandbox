@@ -1,3 +1,14 @@
+# Install react-bootstrap
+npm install react-bootstrap bootstrap
+npm install bootstrap@5.1.3
+
+# Install tailwind css
+npm install -D tailwindcss
+npx tailwindcss init
+
+# start the tailwind css build
+npx tailwindcss -i ./src/index.css -o ./dist/output.css
+
 # Install material ui
 npm install @mui/material @emotion/react @emotion/styled
 # Getting Started with Create React App
