@@ -1,11 +1,10 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./Navigation/NavBar.js";
-//import Navbar from "./NavBar.js";
+import "./index.css";
+import Navbar from "./Navigation/NavBarTailWind2";
 
 export default function App() {
-  return (
-    <div>
-      <Navbar />
-    </div>
-  );
+    return (
+      <div>
+        <Navbar />
+      </div>
+    );
 }
